@@ -1,0 +1,29 @@
+
+GET http://localhost:5050/api/categories
+
+###
+
+GET http://localhost:5050/api/categories/61ed9f58819db0f9db9d9680
+
+###
+
+POST http://localhost:5050/api/categories
+Content-Type: application/json
+
+{
+	"name":"Redmi"
+}
+
+###
+
+PUT http://localhost:5050/api/categories/61ed9dc1819db0f9db9d9679
+Content-Type: application/json
+
+{
+	"name": "Vivo"
+}
+
+
+###
+
+DELETE http://localhost:5050/api/categories/61ed9dc1819db0f9db9d9679

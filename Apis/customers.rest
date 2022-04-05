@@ -1,0 +1,36 @@
+
+GET http://localhost:5050/api/customers
+
+###
+
+GET http://localhost:5050/api/customers/61ee74bb9affccbc2ba60613
+
+###
+
+POST http://localhost:5050/api/customers
+Content-Type: application/json
+
+{
+	"firstName":"Asadbek",
+	"lastName": "Bektayev",
+	"email": "design2022@gmail.com",
+	"password": "dasd455",
+	"phoneNumber": "99899404361"
+}
+
+###
+
+PUT http://localhost:5050/api/customers61eda2d05c89c8a507402103
+Content-Type: application/json
+
+{
+	"firstName":"Abbos bro",
+	"lastName": "Khamidulaev",
+	"email": "kahmidullaev23@gmail.com",
+	"password": "abbos80211"
+}
+
+
+###
+
+DELETE http://localhost:5050/api/customers/61ed9dc1819db0f9db9d9679

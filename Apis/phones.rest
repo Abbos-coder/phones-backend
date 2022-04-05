@@ -1,0 +1,37 @@
+
+GET http://localhost:5050/api/phones
+
+###
+
+GET http://localhost:5050/api/phones/61f2704440b059e042421ea6
+
+###
+
+POST http://localhost:5050/api/phones
+Content-Type: application/json
+
+{
+	"title":"iPhone XS max 512GB",
+	"categoryId": "61ed9f58819db0f9db9d9680",
+	"brand": "iPhone",
+	"tags": ["iphone", "apple", "x max", "xs"],
+	"status": "Active"
+}
+
+###
+
+PUT http://localhost:5050/api/phones/61f2704440b059e042421ea6
+Content-Type: application/json
+
+{
+	"title":"iPhone X max 128GB",
+	"categoryId": "61ed9f58819db0f9db9d9680",
+	"brand": "iPhone",
+	"tags": ["iphone", "apple", "x max", "xs"],
+	"status": "Active"
+}
+
+
+###
+
+DELETE http://localhost:5050/api/phones/61f2716240b059e042421eba

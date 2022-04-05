@@ -1,0 +1,13 @@
+
+
+POST http://localhost:5050/api/upload
+Content-Type: application/json
+
+{
+	"productImg": {"test2.jpg"}
+}
+
+
+###
+
+GET http://localhost:5050/api/upload
